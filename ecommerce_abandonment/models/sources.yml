@@ -1,0 +1,7 @@
+version: 2
+
+sources:
+  - name: ecommerce_raw 
+    database: ecommerce-lakehouse-prod
+    tables:
+      - name: active_clicks_unified
